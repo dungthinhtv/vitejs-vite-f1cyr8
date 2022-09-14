@@ -1,5 +1,4 @@
 @tailwind base;
-@tailwind components;
 
 @layer base {
   body {
@@ -18,6 +17,7 @@
     @apply text-2xl;
   }
 }
+@tailwind components;
 
 @layer components {
   .btn {

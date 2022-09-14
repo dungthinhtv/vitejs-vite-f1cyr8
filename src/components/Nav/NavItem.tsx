@@ -13,7 +13,7 @@ const NavItem = ({ item }: { item: Item }) => {
         active ? ' bg-primary text-white' : ''
       }`}
     >
-      <h3 className="mr-2">{label}</h3>
+      <h3 className="mr-2 text-3xl">{label}</h3>
       {icon}
     </li>
   );

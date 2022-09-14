@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg';
 import Header from './components/Header';
 import AuthButtons from './components/AuthButtons';
 import Nav from './components/Nav/index';
+import Trending from './components/Trending';
 
 import './App.css';
 
@@ -17,7 +18,7 @@ function App() {
         {/* <h3 className="text-3xl">Hello</h3> */}
         <AuthButtons />
         <Header />
-        {/* <Trending /> */}
+        <Trending />
       </main>
     </div>
   );
